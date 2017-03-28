@@ -17,7 +17,7 @@
 }
 
 .banner__text{
-	position: fixed;
+	position: absolute;
 	top: 60%;
 	transform: translateY(-50%);
 	width: 40%;
