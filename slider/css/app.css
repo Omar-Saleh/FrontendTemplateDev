@@ -126,6 +126,15 @@ html, h1, body, p, h2, h3, h5, h4, h6 {
 	margin: 0;
 }
 
+.comment-input {
+	margin: 25px 0;
+	height: 50px;
+	background-color: #EEEEEE;
+	border: none;
+	width: 100%;
+	font-size: 15px;
+}
+
 .fa-calendar-o, .time-since-comment__text {
 	display: inline-block;
 	color: #AAAAAA;

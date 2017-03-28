@@ -160,4 +160,12 @@ $(document).ready(function(){
 		// setTimeout(autoplay(images_container), 5000);
 	}
 
+	$('.comment-input').keyup(function(e) {
+		console.log('here');
+		if(e.keyCode == 13) {
+			var newComment = $('.comment');
+			$('.comments-container__comments').append(newComment.html());
+		}
+	})
+
 })
