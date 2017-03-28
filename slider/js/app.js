@@ -163,8 +163,9 @@ $(document).ready(function(){
 	$('.comment-input').keyup(function(e) {
 		console.log('here');
 		if(e.keyCode == 13) {
-			var newComment = $('.comment');
-			$('.comments-container__comments').append(newComment.html());
+			var newComment = $('.comment').first().clone();
+			newComment.find('.comment__text').text($(this).context.value);
+			$('.comments-container__comments').append(newComment);
 		}
 	})
 
