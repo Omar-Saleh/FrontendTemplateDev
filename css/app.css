@@ -9,13 +9,16 @@
 	}
 }
 
+html, h1, body, p, h2, h3, h5, h4, h6 {
+	font-family: 'Lato', sans-serif !important;
+}
 
 .header {
 	margin-right: 5%;
 	margin-left: 5%;
 }
 .header__social-media-icons {
-	
+
 
 	float: left;
 }
@@ -25,14 +28,14 @@
 .header__social-media-icons i {
 	margin: 5px;
 	/*border-radius: 50%;*/
-	
+
 
 }
 
 
 
 .header__search-icon {
-	
+
 	float: right;
 	/*background-color: orange;*/
 }
@@ -151,6 +154,7 @@
 
 .mySlider {
   overflow: hidden;
+	/*width: 90%;*/
 }
 
 .images_container {
@@ -209,11 +213,15 @@
 	position: relative;
 }
 
-.banner-text{
+.banner__text{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	width: 100%;
 	text-align: center;
-	color: white;
+	color: black;
+}
+
+.trending {
+	margin-top: 5%;
 }
