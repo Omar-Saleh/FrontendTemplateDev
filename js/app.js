@@ -22,10 +22,21 @@ jQuery(document).ready(function($) {
 
   $('.dropdown__item').click(function(){
     var selecteditem = $(this).parent().parent().find('.dropdown--selected');
-    var txtDiv = $(this).parent().parent().parent().find('.droptown__text');
+    var txtDiv = $(this).parent().parent().parent().find('.dropdown__text');
     $(txtDiv).text($(this).text());
     $(selecteditem).removeClass('dropdown--selected');
     $(this).children('b').addClass('dropdown--selected');
     $(this).parent().parent().toggleClass('open');
+  });
+
+  // It is applied for all rows -- careful--
+  $('body').find('[data-equalizer]').each(function(){
+    var maxheight = 0;
+    $(this).find('[data-equalheights]').each(function(){
+      if($(this).height() > maxheight){
+        maxheight = $(this).height();
+      }
+    });
+    $(this).find('[data-equalheights]').height(maxheight);
   });
 });
