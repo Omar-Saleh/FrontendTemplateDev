@@ -1,4 +1,4 @@
-/
+
 .btn {
   vertical-align: middle;
   -webkit-appearance: none;
@@ -115,7 +115,10 @@ button:focus {outline:0;}
 .row__secondCol .columns{
   padding: 10px;
 }
-
+.thumbnail__image{
+  height: 200px;
+  overflow:hidden ;
+}
 .thumbnail__content{
   padding-bottom: 15px;
 }
@@ -176,4 +179,14 @@ button:focus {outline:0;}
   margin: 0 auto;
   color: #76C1D4;
   border-bottom: 2px solid #76C1D4;
+}
+
+.add-more{
+  margin-top: 50px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  box-shadow: 1px 1px 1px #4269D0;
+  background-color:#007FFF;
+  border-radius: 5px;
 }
