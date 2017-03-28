@@ -10,6 +10,130 @@
 }
 
 
+.header {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.header__social-media-icons {
+	
+
+	float: left;
+}
+
+
+
+.header__social-media-icons i {
+	margin: 5px;
+	/*border-radius: 50%;*/
+	
+
+}
+
+
+
+.header__search-icon {
+	
+	float: right;
+	/*background-color: orange;*/
+}
+
+.header__nav-bar {
+
+	text-align: center;
+
+}
+
+.header__nav-bar li{
+
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 10px;
+	/*float: left;*/
+
+
+}
+
+
+.line {
+	height: 1px;
+	background-color: black;
+	margin-top: 5px;
+}
+
+.comment__seperator {
+	height: 1px;
+	background-color: #BBBBBB;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.icons-container {
+	/*height: 25px;*/
+}
+
+.comments-container {
+	background-color: #EEEEEE;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/*height: 100%;*/
+}
+
+.comments-container__comments, .comments-container__write-comment {
+	margin: 0 25%;
+}
+
+.comments__title {
+	font-size: 20px;
+	color: #999999;
+
+}
+
+.comment {
+	margin: 10px 0;
+	/*height: 100%;*/
+	/*background-color: green;*/
+	/*background-color: orange;*/
+}
+
+.comment__profile-picture {
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+	/*display: inline-block;*/
+	float: left;
+	/*background-color: orange;*/
+}
+
+.comment__content {
+	/*display: inline-block;*/
+	/*background-color: red;*/
+	margin-left: 100px;
+	/*float: left;*/
+	/*display: inline-block;*/
+	/*margin-left: 100px;*/
+}
+
+.comment__user-name {
+	color: #555555;
+	display: inline-block;
+}
+
+.comment__text {
+	color: #AAAAAA;
+	margin: 0;
+}
+
+.fa-calendar-o, .time-since-comment__text {
+	display: inline-block;
+	color: #AAAAAA;
+}
+
+.comment__time-since-comment {
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
 .modal{
 	background-color: red;
 	max-width: 500px;
